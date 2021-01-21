@@ -1,0 +1,62 @@
+h3{
+  background-color: rgba(0,0,0,0.2);
+  text-align: center;
+  font-size: 25px;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin: 0 auto;
+    float: none;
+    
+}
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card {
+    padding: 10px 19px;
+  }
+  .drop1{
+          font-size: 20px;
+          font-family: 'Times New Roman', Times, serif;        
+    }
+  .drop2{
+          font-size: 20px;
+          font-family: 'Times New Roman', Times, serif;
+          
+
+  }
+.drop3{
+          font-size: 20px;
+          font-family: 'Times New Roman', Times, serif;
+          
+}
+.drop4{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;    
+  padding-top: 20px;
+}
+.date1{
+          font-size: 20px;
+          font-family: 'Times New Roman', Times, serif;
+    
+}
+input[type=submit] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  background: #f1f1f1;
+
+}
+.card{
+  background-color: aquamarine;
+}
+marquee{
+  font-size: 30px;
+  color: crimson;
+}

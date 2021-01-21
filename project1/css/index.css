@@ -1,0 +1,246 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  h1 {
+    margin: 0px auto;
+    text-align: none;
+    text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+    color: #333;
+    opacity: 0.4;
+    font: 700 80px 'Bitter';
+  }
+
+  h2{
+    margin: 0px auto;
+    font: 'Bitter';
+    color: skyblue;
+    text-align: none;
+    text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+    text-decoration-style: initial;
+  }
+
+  .vertical_bar a{
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    
+
+  }
+
+  .vertical_bar a:hover{
+      background-color: #ccc;
+  }
+
+  .vertical_bar {
+    width: 250px;
+    font-size: 20px;
+    display: inline-block;
+  }
+  #left{
+    float:left;
+    width:18%;
+    height: unset;
+    margin:1px .2em 1px 1px;
+    border: 2px solid green;
+   
+  }
+  * {box-sizing: border-box}
+  body {font-family: Verdana, sans-serif; margin:0}
+  .mySlides {display: none}
+  img {vertical-align: middle;}
+  
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+ 
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 450px;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+footer{
+  bottom: 0;
+  background-color: #111;
+  text-align: center;
+  font-size: 25px;
+  text-align: center;
+  padding: 12px;
+  width: 100%;
+  color: #eee;
+}
+h7{
+    margin: 0px auto;
+    text-align: none;
+    text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+    color:lightblue;
+    opacity: 2.2;
+    font: 500 60px 'Bitter';
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 24%;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.feature{
+  
+}
+.mycontainer1{                          /* First Container alignment and design */
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
+  background-origin: padding-box;
+  float:left; 
+  height:5%; 
+  border-radius: 20px;
+  
+}
+.mycontainer2{                        /* Second Container alignment and design */
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
+  background-origin: padding-box;
+  float:left; 
+  height:5%;
+  padding-inline: 70px;
+  border-radius: 20px;
+}
+.mycontainer3{                        /* Third Container alignment and design */
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
+  background-origin: padding-box;
+  float:left; 
+  padding-inline: 70px;
+  height:5%;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+h4{                                              /* Heading 4 blinker */
+    animation: blinker 0.6s linear infinite;
+    color: #1c87c9;
+    font-size: 25px;
+
+}
+@keyframes blinker {  
+  50% { opacity: 0; }
+ }
+ h9{
+   padding-left: 15%;
+   font-size: 20px;
+   padding-inline: 15%;
+ }
+ .right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+j {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.myclass{
+  padding-left: 15%;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
